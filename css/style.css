@@ -49,7 +49,8 @@ a {
     padding-top: 11px;
 }
 
-ul,ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -248,8 +249,92 @@ Service part start
     color: red;
 }
 
+/* =============================
+Service part end
+=============================== */
+
+/* ==============================
+About part Start
+================================= */
+.about {
+    padding-bottom: 120px;
+}
+
+.aboutImage img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.title2 {
+    text-align: left;
+}
+
+.title2 h2 {
+    width: auto;
+}
+
+.title2 h4 {
+    margin-left: 60px;
+}
+
+.title2 h4::after {
+    position: absolute;
+    top: 9px;
+    left: -9%;
+    width: 40px;
+    height: 2px;
+    background: #E5745D;
+    content: "";
+}
+
+.title h4::before {
+    position: absolute;
+    top: 7px;
+    left: -13px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #E5745D;
+    content: "";
+}
+
+.about p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    color: #00413D;
+    width: 570px;
+}
+
+/* ==============================
+About part end
+  ================================= */
 
 /* =============================
+progesber part start
+=============================== */
+.progres .raduis {
+    width: 180px;
+    height: 180px;
+    border: 10px solid #E5745D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    font-weight: 500;
+    color: #E5745D;
+    font-family: "Vollkorn", serif;
+    margin-bottom: 40px;
+}
 
-Service part end
+.progres .raduis h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+}
+/* =============================
+progesber part end
 =============================== */
