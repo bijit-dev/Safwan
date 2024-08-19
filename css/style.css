@@ -49,8 +49,7 @@ a {
     padding-top: 11px;
 }
 
-ul,
-ol {
+ul,ol {
     list-style: none;
 }
 
@@ -61,10 +60,6 @@ common css
 /* ==============================
 Navber part start
 ================================= */
-nav {
-    padding: 18px 0px;
-}
-
 .navbar-nav {
     column-gap: 50px;
 }
@@ -85,10 +80,10 @@ nav {
 
 .navberbtn {
     background: #e5745d;
-    padding: 22px 44px;
-    margin: 24px 46px;
+    padding: 20px 40px;
+    margin: 15px 0px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     font-family: "Jost", sans-serif;
     position: relative;
@@ -97,9 +92,9 @@ nav {
 .navberbtn::after {
     position: absolute;
     left: 7px;
-    top: 5px;
-    height: 60px;
-    width: 184px;
+    top: 6px;
+    height: 54px;
+    width: 178px;
     border: 1px solid rgb(255, 255, 255);
     content: "";
 }
@@ -193,7 +188,6 @@ Banner part end
 ================================= */
 
 /* =============================
-
 Service part start
 =============================== */
 .service {
@@ -227,8 +221,11 @@ Service part start
     font-weight: 600;
     color: #00413d;
     font-family: "Vollkorn", serif;
-    padding-top: 26px;
+    padding-top: 27px;
     padding-bottom: 15px;
+}
+.service .card .card-body .card-title.card3 {
+    padding-top: 20px;
 }
 
 .service .card .card-body .card-text {
@@ -288,7 +285,7 @@ About part Start
     content: "";
 }
 
-.title h4::before {
+.title2 h4::before {
     position: absolute;
     top: 7px;
     left: -13px;
@@ -358,6 +355,63 @@ progesber part start
 
 /* =============================
 progesber part end
+=============================== */
+
+/* =============================
+potfolio part start
+=============================== */
+.Projects{
+    padding-bottom: 120px;
+}
+.Projects .title2 h4::after {
+    left: -14%;
+}
+
+.Projects .topic{
+    color: #E5745D;
+    font-family: "Vollkorn", serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Projects .card{
+    -webkit-box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 21px -11px rgba(0, 0, 0, 0.75);
+}
+
+.Projects .card-body{
+    padding: 20px 36px;
+}
+
+.Projects .card-title{
+    width: 305px;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.Projects .card-text{
+    width: 289px;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Projects .card-case{
+    width: 289px;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Projects .commonBtn{
+    margin: 60px auto 0px;
+}
+/* =============================
+potfolio part end
 =============================== */
 
 /* =============================
