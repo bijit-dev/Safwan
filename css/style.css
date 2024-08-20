@@ -454,6 +454,11 @@ portfolio part start
     position: relative;
 }
 
+.portfolio .card img{
+    width: 100%;
+    height: 520px;
+}
+
 .portfolio .card .card-body {
     background: #00413D;
 }
@@ -522,12 +527,52 @@ testmoinal start
     margin: 120px 0px;
     background: #F9F4F1;
 }
+.testmoinal .Vector-left{
+    top: 0;
+    left: 5%;
+}
+.testmoinal .Vector-right{
+    top: 0;
+    right: 5%;
+}
+
+.testmoinal .title h4::after {
+    top: 9px;
+    left: 39%;
+}
+.testmoinal .title h4::before {
+    top: 7px;
+    left: 42%;
+}
 
 .testmoinal .box1 {
     padding: 30px 40px;
     background: #fff;
     border-top: 8px solid #E5745D;
     position: relative;
+}
+
+.testmoinal .client{
+    width: 74px;
+    height: 74px;
+    padding: 2px;
+    border-radius: 50%;
+    outline: 2px solid red;
+    position: relative;
+}
+.testmoinal .client img{
+    width: 95%;
+    height: 98%;
+    border-radius: 50%;
+    position: absolute;
+}
+.testmoinal .client .icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -16px;
+    left: 21px;
 }
 
 .testmoinal .box1 .icon_iamge {
