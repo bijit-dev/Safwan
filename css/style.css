@@ -1,6 +1,6 @@
 :root{
-    -fontv:"Vollkorn", serif;
-    -fontj:"Jost", sans-serif;
+    --fontv:"Vollkorn", serif;
+    --fontj:"Jost", sans-serif;
 }
 /* ==============================
 common css
@@ -757,25 +757,34 @@ Footer start
 .footer .ulTwo ul li i {
     color: white;
     background: #E5745D;
-    padding: 20px;
+    padding: 17px;
     border-radius: 50%;
     font-size: 24px;
 }
+.footer .ulTwo ul{
+    padding-left: 0 !important;
+}
 
+
+/* ===================
+Footer end
+====================== */
+
+/* ===================
+copy staet
+====================== */
 .copy {
     background: #00413D;
-    padding: 80px 0px;
     text-align: center;
 }
 
 .copy p {
-    border-top: 1px solid rgba(245, 245, 245, 0.10);
     width: 1400px;
+    border-top: 1px solid rgba(245, 245, 245, 0.10);
+    padding: 30px 0px;
     margin: 0 auto;
     color: rgba(245, 245, 245, 0.10);
-    padding-top: 20px;
 }
-
 /* ===================
-Footer end
+copy end
 ====================== */
