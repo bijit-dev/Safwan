@@ -1,0 +1,194 @@
+@media (max-width: 575.98px) {
+    /*=============
+    common css start 
+    ================ */
+    .title h4 {
+        font-size: 16px;
+    }
+    
+    .title h2 {
+        font-size: 29px;
+        width: auto;
+    }
+
+    .title h4::after {
+        left: 16%;
+    }
+
+    .title h4::before {
+        left: 29%;
+    }
+    .title2 {
+        text-align: center;
+    }
+    
+    .title2 h2 {
+        width: auto;
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+    
+    .title2 h4 {
+        margin-left: 0px;
+    }
+    
+    .title2 h4::after {
+        top: 9px;
+        left: 22%;
+    }
+    
+    .title2 h4::before {
+        top: 7px;
+        left: 107px;
+    }
+
+    .commonBtn {
+        width: 150px;
+        height: 56px;
+        line-height: 57px;
+        margin: 0 auto;
+    }
+
+    .commonBtn::after {
+        height: 48px;
+        width: 142px;
+    }
+    .annimation {
+        display: none;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 16px;
+        width: auto;
+        padding-bottom: 17px;
+    }
+    /*=============
+    common css end 
+    ================ */
+
+    /*=============
+    nav start 
+    ================ */
+    .navbar-brand img {
+        width: 80%;
+    }
+    
+    .navbar-collapse {
+        background: #317a8e;
+        text-align: center;
+    }
+
+    .nav-link {
+        color: #fff;
+        padding: 20px 0px;
+    }
+    
+    .navberbtn {
+        display: inline-block;
+    }
+
+    .navberbtn {
+        padding: 16px 30px;
+    }
+    
+    .navberbtn::after {
+        left: 9px;
+        top: 5px;
+        height: 47px;
+        width: 155px;
+    }
+    /*=============
+    nav end 
+    ================ */
+
+    /*=============
+    banner start 
+    ================ */
+    .banner {
+        padding: 124px 0px;
+    }
+    .banner .overly {
+        width: 0px;
+    }
+
+    .banner h1 {
+        font-size: 33px;
+    }
+
+    .banner p {
+        font-size: 16px;
+
+        width: auto;
+    }
+
+    /*=============
+    banner end 
+    ================ */
+
+    /*=============
+    service start 
+    ================ */
+    .service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .service .card {
+        margin: 15px auto;
+        padding: 30px 10px;
+    }
+
+    
+    .progresber .box .progresber_box {
+        width: 158px;
+        height: 158px;
+    }
+    
+    /*=============
+    service end 
+    ================ */
+    
+    /*=============
+    about start 
+    ================ */
+    .about .aboutImage{
+        margin-bottom: 20px;
+    }
+    .about p {
+        font-size: 14px;
+        width: auto;
+    }
+    
+    /*=============
+    about end 
+    ================ */
+
+    /*=============
+    project start 
+    ================ */
+    .Projects .title2 h4::after {
+        left: 0px;
+    }
+    .title2 h4::before {
+        left: 37px;
+    }
+    /*=============
+    project end 
+    ================ */
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
