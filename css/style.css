@@ -1,3 +1,7 @@
+:root{
+    -fontv:"Vollkorn", serif;
+    -fontj:"Jost", sans-serif;
+}
 /* ==============================
 common css
 ============================= */
@@ -380,7 +384,7 @@ Projects part start
 }
 
 .Projects .card-body{
-    padding: 20px 36px;
+    padding: 30px;
 }
 
 .Projects .card-title{
@@ -389,6 +393,7 @@ Projects part start
     font-family: "Vollkorn", serif;
     font-size: 24px;
     font-weight: 500;
+    padding: 4px 0 10px;
 }
 
 .Projects .card-text{
@@ -397,6 +402,7 @@ Projects part start
     font-family: "Jost", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 8px;
 }
 
 .Projects .card-case{
@@ -658,18 +664,76 @@ contact start
 .contact .input5 {
     width: 100%;
 }
-
 /* =================
 contact end
 ==================== */
+
 /* ================
-Footer straert
+Blog start
+===================== */
+.blog{
+    margin: 120px auto;
+}
+.blog .topic{
+    font-size: 14px;
+    font-weight: 400;
+    color: #E5745D;
+    font-family: "Jost", sans-serif;
+}
+.blog .date{
+    font-size: 14px;
+    font-weight: 400;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+}
+.blog .card .card-body{
+    padding: 30px;
+}
+.blog .card .card-title{
+    width: 280px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #00413D;
+    line-height: 30px;
+    font-family: "Vollkorn", serif;
+    padding-bottom: 3px;
+}
+.blog .card .card-text {
+    width: 320px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+.blog .card-case{
+    width: 289px;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+}
+.blog .card-case i {
+    position: absolute;
+    top: 6px;
+    left: 92px;
+}
+.blog .card a:hover{
+    color: #E5745D;
+}
+/* ================
+Blog end
+===================== */
+
+/* ================
+Footer start
 ===================== */
 
 .footer {
     background: #00413D;
     padding: 80px 0px;
-    margin-top: 80px;
     text-align: center;
 }
 
