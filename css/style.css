@@ -49,6 +49,28 @@ a {
     padding-top: 11px;
 }
 
+.title2 {
+    text-align: left;
+}
+
+.title2 h2 {
+    width: auto;
+}
+
+.title2 h4 {
+    margin-left: 60px;
+}
+
+.title2 h4::after {
+    top: 9px;
+    left: -9%;
+}
+
+.title2 h4::before {
+    top: 7px;
+    left: -13px;
+}
+
 ul,ol {
     list-style: none;
 }
@@ -126,6 +148,17 @@ Banner part start
     right: -40%;
     transition: 0.5s;
 }
+.animation {
+    background-image: url(../images/shape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 42%;
+    height: 100%;
+}
 
 .banner:hover .overly {
     right: 0;
@@ -147,7 +180,7 @@ Banner part start
     font-weight: 400;
     color: #ffffff7f;
     font-family: "Jost", sans-serif;
-    width: 670px;
+    width: 680px;
     padding-top: 14px;
     padding-bottom: 50px;
 }
@@ -262,40 +295,6 @@ About part Start
     height: 100%;
 }
 
-
-.title2 {
-    text-align: left;
-}
-
-.title2 h2 {
-    width: auto;
-}
-
-.title2 h4 {
-    margin-left: 60px;
-}
-
-.title2 h4::after {
-    position: absolute;
-    top: 9px;
-    left: -9%;
-    width: 40px;
-    height: 2px;
-    background: #E5745D;
-    content: "";
-}
-
-.title2 h4::before {
-    position: absolute;
-    top: 7px;
-    left: -13px;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #E5745D;
-    content: "";
-}
-
 .about p {
     font-size: 16px;
     font-weight: 400;
@@ -358,7 +357,7 @@ progesber part end
 =============================== */
 
 /* =============================
-potfolio part start
+Projects part start
 =============================== */
 .Projects{
     padding-bottom: 120px;
@@ -406,9 +405,18 @@ potfolio part start
     font-family: "Jost", sans-serif;
     font-size: 18px;
     font-weight: 500;
+    position: relative;
+}
+.Projects .card-case i {
+    position: absolute;
+    top: 6px;
+    left: 152px;
 }
 .Projects .commonBtn{
     margin: 60px auto 0px;
+}
+.Projects .card a:hover{
+    color: #E5745D;
 }
 /* =============================
 potfolio part end
@@ -419,16 +427,28 @@ portfolio part start
 =============================== */
 
 .title3 h4::before {
-    position: absolute;
     top: 4px;
     left: 44%;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #E5745D;
-    content: "";
 }
-
+.portfolio .title h2 {
+    padding-bottom: 24px;
+}
+.portfolio-ul ul{
+    margin: 0 auto 40px;
+    padding-left: 0;
+}
+.portfolio-ul li {
+    color: #00413D;
+    font-size: 18px;
+    padding: 2px;
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: 0.4s;
+}
+.portfolio-ul li:hover{
+    border-bottom: 2px solid #E5745D;
+}
 .portfolio .card {
     width: 100% !important;
     position: relative;
@@ -532,7 +552,9 @@ contact start
 .contact img {
     width: 100%;
 }
-
+.contact .title2 h4::before {
+    left: -23px;
+}
 .contact .input_box {
     display: flex;
     flex-wrap: wrap;
