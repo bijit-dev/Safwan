@@ -160,7 +160,7 @@
         font-size: 14px;
         width: auto;
     }
-    
+
     /*=============
     about end 
     ================ */
@@ -169,13 +169,65 @@
     project start 
     ================ */
     .Projects .title2 h4::after {
-        left: 0px;
+        left: -40px;
     }
-    .title2 h4::before {
-        left: 37px;
+    .Projects .title2 h4::before {
+        left: -2px;
+    }
+    .Projects .title2 h4 {
+        margin-left: 48px;
+    }
+    .Projects .card-title {
+        font-size: 20px;
+    }
+    .Projects .card-text {
+        width: auto;
+        font-size: 13px;
+    }
+    .Projects .card-case {
+        font-size: 15px;
+    }
+    .Projects .card-case i {
+        top: 5px;
+        left: 129px;
     }
     /*=============
     project end 
+    ================ */
+
+    /*=============
+    portfolio end 
+    ================ */
+    .portfolio-ul ul{
+        display: block !important;
+        margin-left: 10px;
+    }
+    .portfolio-ul li:hover{
+        border-bottom: 2px solid transparent;
+    }
+    .portfolio .card .overly .round {
+        width: 40px;
+        height: 40px;
+        top: 15px;
+        right: 15px;
+    }
+    .portfolio .card .overly .round i {
+        font-size: 19px;
+    }
+    .portfolio .card .card-title {
+        font-size: 20px;
+    }
+    /*=============
+    portfolio end 
+    ================ */
+    /*=============
+    testmoinal end 
+    ================ */
+    .testmoinal .Vector-left {
+        opacity: 0;
+    }
+    /*=============
+    testmoinal end 
     ================ */
 
 }
