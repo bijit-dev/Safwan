@@ -196,8 +196,16 @@
     ================ */
 
     /*=============
-    portfolio end 
+    portfolio start 
     ================ */
+    .portfolio .title h4::after {
+        top: 8px;
+        left: 21%;
+    }
+    .portfolio .title h4::before {
+        top: 6px;
+        left: 31%;
+    }
     .portfolio-ul ul{
         display: block !important;
         margin-left: 10px;
@@ -221,13 +229,64 @@
     portfolio end 
     ================ */
     /*=============
-    testmoinal end 
+    testmoinal start 
     ================ */
+    .testmoinal {
+        padding: 50px 0px;
+        margin: 50px 0px;
+    }
     .testmoinal .Vector-left {
         opacity: 0;
     }
+    .testmoinal .Vector-right {
+        opacity: 0;
+    }
+    .testmoinal .title h4::after {
+        top: 7px;
+        left: 44px;
+    }
+    .testmoinal .title h4::before {
+        top: 5px;
+        left: 25%;
+    }
+    .testmoinal .dot {
+        background: transparent !important;
+    }
     /*=============
     testmoinal end 
+    ================ */
+    /*=============
+    contact start 
+    ================ */
+    .contact {
+        padding: 50px 0;
+    }
+    .contact .title2 h4::after {
+        top: 9px;
+        left: 16%;
+    }
+    .contact .title2 h4::before {
+        left: 28%;
+    }
+    .contact .input {
+        width: 100%;
+        font-size: 15px;
+    }
+    /*=============
+    contact end 
+    ================ */
+
+    /*=============
+    blog start 
+    ================ */
+    .blog {
+        margin: 45px auto;
+    }
+    .blog .title h4::before {
+        left: 28%;
+    }
+    /*=============
+    blog end 
     ================ */
 
 }
