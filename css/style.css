@@ -206,7 +206,7 @@ Banner part start
     position: relative;
 }
 
-.commonBtn::after {
+.commonBtn a::after {
     position: absolute;
     left: 4px;
     top: 4px;
